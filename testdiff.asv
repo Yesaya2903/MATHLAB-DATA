@@ -1,0 +1,21 @@
+clear all;
+clc;
+
+syms x y
+tol = 10^-5;
+i = 1;
+N = 10;
+
+fxy = x + 3*log10(x) -y^2;
+gxy = 2*x^2- x*y - 5*x + 1;
+
+dfx = diff(fxy,x)
+dfy = diff(fxy,y)
+dgx = diff(gxy,x)
+dgy = diff(gxy,y)
+
+result5 = double(subs(fxy, {x,y}, {}))
+result1 = double(subs(dfx, 3.4))
+result2 = double(subs(dfy, 2.2))
+result3 = double(subs(dgx, {x,y}, {3.4,2.2}))
+result4 = double(subs(dgy, 2.2))

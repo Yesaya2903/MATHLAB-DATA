@@ -1,0 +1,7 @@
+x = input('masukkan nilai x :');
+if rem(x,2) == 0
+    for x/2
+  end
+else 3*x + 1
+  end
+end    

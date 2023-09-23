@@ -1,0 +1,17 @@
+function [miring, luas, keliling] = mysegitiga2(a,b);
+a=4 ;
+b=10;
+c=a+b;
+
+% menghitung sisi miring 
+miring = sqrt(a^2+b^2);
+miring
+c = miring;
+
+%luas 
+luas = (0.5*a*b);
+luas
+
+%keliling
+keliling = a+b+c
+keliling
