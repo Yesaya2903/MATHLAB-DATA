@@ -5,6 +5,8 @@ clear
 %Team %Aini {5002211173}
 %Team %Sita {5002211067}
 
+%This is an unsuccesfull project
+
 firstcustomer = 0;
 finalcustomer = 100;
 interarrivaltime = randi([1, 4], 1, 100);
